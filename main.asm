@@ -1,6 +1,6 @@
-; nasm -f elf64 main.asm
-; ld main.o -o main
-; ./main filename
+; nasm -f elf64 main.asm -o main.o
+; ld main.o -o file_viewer
+; ./viewer <filename>
 
 section .data
   msg_usage db "Usage: ./viewer <file>", 10

@@ -46,11 +46,11 @@ sudo pacman -S nasm
 
 3.  **Run the executable:**
     ```bash
-    ./file_viewer <filename>
+    ./viewer <filename>
     ```
     For example, to view the content of `main.asm`:
     ```bash
-    ./file_viewer main.asm
+    ./viewer main.asm
     ```
 
 ## Features
