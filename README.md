@@ -41,7 +41,7 @@ sudo pacman -S nasm
 
 2.  **Link the object file to create an executable:**
     ```bash
-    ld main.o -o file_viewer
+    ld main.o -o viewer
     ```
 
 3.  **Run the executable:**

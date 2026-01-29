@@ -1,5 +1,5 @@
 ; nasm -f elf64 main.asm -o main.o
-; ld main.o -o file_viewer
+; ld main.o -o viewer
 ; ./viewer <filename>
 
 section .data
